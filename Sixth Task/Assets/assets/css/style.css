@@ -1,0 +1,55 @@
+body {
+background-image: url("../images/home-bg.webp");
+background-size: cover;
+background-position:initial;
+background-repeat: no-repeat;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+text-align: center;
+color: black;
+height: 100vh;
+}
+
+.container {
+    padding: 10px;
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+button {
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    background: rgb(29, 29, 242);
+}
+
+.overlay {
+    width: 480px;
+    display: inline-block;
+    height: 280px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+}
